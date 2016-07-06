@@ -1,2 +1,2 @@
-# web-components
-This repository contains reusable components
+# Web Components
+This repository contains reusable web components
