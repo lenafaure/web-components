@@ -1,0 +1,10 @@
+body {
+    height: 100%;
+}
+
+.main {
+    margin: 0 5em;
+    padding: 2em;
+    height: 100%;
+    background-color: #eee;
+}
