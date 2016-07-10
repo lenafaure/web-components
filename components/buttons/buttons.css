@@ -1,39 +1,10 @@
-
-/* import Roboto from Google Fonts */
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500);
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    font-size: 100%;
-    vertical-align: baseline;
-}
-
-body {
-    font-family: 'Roboto', 'Helevetica', sans-serif;
+body.buttons-body {
+    background: linear-gradient(#2980b9, #2c3e50);
 
 }
 
-.main {
-    padding: 0 1em;
-}
-
-a  {
-    text-decoration: none;
+.buttons-wrapper {
+    padding: 1em 2em;
 }
 
 button {
@@ -54,13 +25,13 @@ button {
     font-weight: 500;
     padding: 1em 1.25em;
     text-align: center;
-    min-width: 200px;
+    min-width: 150px;
     border-radius: 3px;
     overflow: hidden;
     z-index: 0;
     cursor: pointer;
     background: #0a3c91;
-    transition: all 0.3s;
+    transition: background 0.5s;
 }
 
 .button:hover {
@@ -87,4 +58,28 @@ button {
     padding: 1.25em;
 }
 
+.button-cancel {
+    background: #bdbfbf;
+}
 
+.button-aqua {
+    background-color: #36c6d3;
+}
+
+.button-aqua:hover {
+    background: mediumaquamarine;
+}
+
+.button-aqua:active {
+    background: aqua;
+    box-shadow: 0px 1px 1px aqua;
+}
+
+.button-cancel:hover {
+    background: slategray;
+}
+
+.button-cancel:active {
+    background: #292c35;
+    box-shadow: 0px 1px 1px #292c35;
+}
