@@ -23,11 +23,6 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
-
-html {
-    height: 100%;
-}
-
 body {
     font-family: 'Roboto', 'Helevetica', sans-serif;
 }
@@ -53,6 +48,18 @@ h3.main-title {
     border-bottom: 1px solid #eee;
     text-transform: uppercase;
     color: #72757e;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
 }
 
 

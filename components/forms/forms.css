@@ -11,7 +11,13 @@ body.questionnaire-form {
 }
 
 body.login-form {
-    background: linear-gradient(#ADD100, #7B920A);
+    background:  url(../img/login_background.jpg) no-repeat;
+    background-size: cover;
+}
+
+.login-form .main {
+    background-color: rgba(255,255,255, 0.9);
+    border-radius: 4px;
 }
 
 .form-wrapper {
@@ -29,7 +35,6 @@ label {
     margin-left: 10px;
 }
 
-
 textarea {
     height: auto;
     font-size: 12px;
@@ -41,7 +46,82 @@ select{
     background-color: transparent;
 }
 
-i {
+/****** CHECKBOX STYLING ******/
+
+/* Base for label styling */
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+    position: absolute;
+    left: -9999px;
+}
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+    position: relative;
+    padding-left: 40px;
+    padding-top: 7px;
+    cursor: pointer;
+    margin-left: 0px;
+}
+
+/* checkbox aspect */
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+    content: '';
+    position: absolute;
+    left:0; top: 2px;
+    width: 20px; height: 20px;
+    border: 1px solid #aaa;
+    background: #f8f8f8;
+    border-radius: 1px;
+}
+/* checked mark aspect */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+    content: '✔';
+    position: absolute;
+    top: 4px; left: 4px;
+    font-size: 22px;
+    line-height: 0.8;
+    transition: all .2s;
+}
+
+.login-form [type="checkbox"]:not(:checked) + label:after,
+.login-form [type="checkbox"]:checked + label:after
+{
+    color: #ADD100;
+}
+
+/* checked mark aspect changes */
+[type="checkbox"]:not(:checked) + label:after {
+    opacity: 0;
+    transform: scale(0);
+}
+[type="checkbox"]:checked + label:after {
+    opacity: 1;
+    transform: scale(1);
+}
+/* disabled checkbox */
+[type="checkbox"]:disabled:not(:checked) + label:before,
+[type="checkbox"]:disabled:checked + label:before {
+    box-shadow: none;
+    border-color: #bbb;
+    background-color: #ddd;
+}
+[type="checkbox"]:disabled:checked + label:after {
+    color: #999;
+}
+[type="checkbox"]:disabled + label {
+    color: #aaa;
+}
+/* accessibility */
+[type="checkbox"]:checked:focus + label:before,
+[type="checkbox"]:not(:checked):focus + label:before {
+    border: 1px dotted blue;
+}
+
+/****** END CHECKBOX STYLING ******/
+
+.search-form i {
     float: right;
     position: absolute;
     top: 20px;
@@ -58,6 +138,34 @@ i {
     padding: 12px 0;
     background: 0 0;
     border: 0;
+}
+
+.form label {
+    width: 100%;
+    pointer-events: none;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.help-input {
+    display: block;
+    height: 20px;
+    font-weight: 300;
+    font-size: 0.7em;
+    padding-top: 5px;
+}
+
+.input-group {
+    margin: 2em 0;
+    position: relative;
+}
+
+.input-radio, .input-checkbox {
+    margin: 1em 0;
+}
+
+
+.signup-form .input-form {
     border-bottom: 1px solid #c2cad8;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -71,34 +179,47 @@ i {
     font-size: 12px;
 }
 
-.input-form:focus {
+.signup-form .input-form:focus {
     border-bottom: 2px solid #36c6d3;
     transition: border-color ease-in-out .15s;
 }
 
-.form label {
-    width: 100%;
-    pointer-events: none;
-    font-weight: 300;
-    font-size: 1em;
-}
 
-.help-input {
-    display: block;
-    height: 20px;
+.signup-form .help-input {
     color: #36c6d3;
-    font-weight: 300;
-    font-size: 0.7em;
-    padding-top: 5px;
 }
 
-.input-group {
-    margin: 2em 0;
-    position: relative;
+.login-form .input-form {
+    border: 1px solid #eee;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 3px;
+    -webkit-transition: border ease-in-out .15s;
+    -o-transition: border ease-in-out .15s;
+    transition: border ease-in-out .15s;
+    padding: 2em 1em;
+    color: #555;
+    font-size: 12px;
 }
 
-.input-radio, .input-checkbox {
-    margin: 1em 0;
+.login-form .input-form:focus {
+    border: 1px solid #000;
+    transition: border-color ease-in-out .15s;
+}
+
+.login-form .help-input, .login-form h3 {
+    color: #ADD100;
+}
+
+.login-form h5 {
+    color: #757678;
+}
+
+.login-form .button {
+    width: 100%;
+    background-color: #ADD100
 }
 
 .man-of-steel .input-form:focus {
@@ -125,13 +246,7 @@ i {
     color: #c21500;
 }
 
-.parklife .input-form:focus {
-    border-bottom: 2px solid #ADD100;
-}
 
-.parklife .help-input, .parklife h3 {
-    color: #ADD100;
-}
 
 
 
