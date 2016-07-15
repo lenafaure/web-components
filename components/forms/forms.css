@@ -3,7 +3,8 @@ body.signup-form {
 }
 
 body.search-form {
-    background: linear-gradient(#0099F7, #F11712);
+    background:  url(../img/search-background.jpg) no-repeat;
+    background-size: cover;
 }
 
 body.questionnaire-form {
@@ -18,6 +19,12 @@ body.login-form {
 .login-form .main {
     background-color: rgba(255,255,255, 0.9);
     border-radius: 4px;
+}
+
+.search-form .main {
+    background: transparent;
+    box-shadow: none;
+    color: #fff;
 }
 
 .form-wrapper {
@@ -43,6 +50,7 @@ textarea {
 select{
     -webkit-appearance: none;
     -moz-appearance: none;
+    appearance: none;
     background-color: transparent;
 }
 
@@ -122,13 +130,14 @@ select{
 /****** END CHECKBOX STYLING ******/
 
 .search-form i {
-    float: right;
+    float: left;
     position: absolute;
-    top: 20px;
+    top: 8px;
     z-index: 0;
     left: auto;
-    right: 8px;
     margin: 11px 2px 10px 10px;
+    left: 8px;
+    color: #757678;
 }
 
 .input-form {
@@ -164,7 +173,6 @@ select{
     margin: 1em 0;
 }
 
-
 .signup-form .input-form {
     border-bottom: 1px solid #c2cad8;
     -webkit-border-radius: 0;
@@ -184,7 +192,6 @@ select{
     transition: border-color ease-in-out .15s;
 }
 
-
 .signup-form .help-input {
     color: #36c6d3;
 }
@@ -192,9 +199,6 @@ select{
 .login-form .input-form {
     border: 1px solid #eee;
     -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
     border-radius: 3px;
     -webkit-transition: border ease-in-out .15s;
     -o-transition: border ease-in-out .15s;
@@ -213,13 +217,51 @@ select{
     color: #ADD100;
 }
 
-.login-form h5 {
+.login-form h5, .signup-form h5{
     color: #757678;
 }
 
 .login-form .button {
     width: 100%;
-    background-color: #ADD100
+    background-color: #ADD100;
+}
+
+.search-form .input-form {
+    height: 70px;
+    border: 1px solid #eee;
+    background-color: rgba(255,255,255,0.8);
+    -webkit-transition: background-color ease-in-out .15s;
+    -o-transition: background-color ease-in-out .15s;
+    transition: background-color ease-in-out .15s;
+    padding: 2em 1em;
+    padding-left: 70px;
+    color: #000;
+    font-size: 12px;
+}
+
+.search-form option {
+    padding: 1em;
+}
+
+.search-form .input-form:focus {
+    background-color: #fff;
+    transition: background-color ease-in-out .15s;
+}
+
+.search-form .help-input, .search-form h3 {
+    color: #fff;
+}
+
+.search-form .fa-map-marker {
+    left: 11px;
+}
+
+.search-form .button {
+    width: 100%;
+    background-color: #fe2d61;
+    border-radius: 0;
+    padding: 1.5em 0 !important;
+    margin: 1em auto;
 }
 
 .man-of-steel .input-form:focus {
@@ -228,14 +270,6 @@ select{
 
 .man-of-steel .help-input, .man-of-steel h3 {
     color: #3b0a36 ;
-}
-
-.superman .input-form:focus  {
-    border-bottom: 2px solid #1090e7;
-}
-
-.superman .help-input, .superman h3 {
-    color: #1090e7;
 }
 
 .kyoto .input-form:focus {
