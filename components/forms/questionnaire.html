@@ -26,39 +26,46 @@
             <h3 class="main-title">Questionnaire Form</h3>
 
             <form>
-                <legend>Pick your favorite restaurant in town</legend>
-                <div>
+                <legend>Pick your favorite restaurant in town:</legend>
+
+                <div class="quiz-wrapper">
 
                     <div class="input-radio">
                         <input type="radio" id="radio1" name="radio1" class="md-radiobtn">
-                        <label for="radio1" class="radio-label">Chez Marcel</label>
+                        <label for="radio1" class="radio-label"><span></span> Chez Marcel</label>
                     </div>
 
-                    <div class="iinput-radio">
+                    <div class="input-radio">
                         <input type="radio" id="radio2" name="radio1" class="md-radiobtn">
-                        <label for="radio2" class="radio-label">Big Fernand</label>
+                        <label for="radio2" class="radio-label"><span></span> Big Fernand</label>
                     </div>
 
                     <div class="input-radio">
                         <input type="radio" id="radio3" name="radio1" class="md-radiobtn">
-                        <label for="radio3" class="radio-label">Aller Retour</label>
+                        <label for="radio3" class="radio-label"><span></span> Aller Retour</label>
                     </div>
 
                     <div class="input-radio">
                         <input type="radio" id="radio4" name="radio1" class="md-radiobtn">
-                        <label for="radio4" class="radio-label">Hotel du Nord</label>
+                        <label for="radio4" class="radio-label"><span></span> Hotel du Nord</label>
                     </div>
 
                     <div class="input-radio">
-                        <input type="radio" id="radio5" name="radio1" class="md-radiobtn">
-                        <label for="radio5" class="radio-label">Other: </label>
-                        <input type="text" class="input-form" placeholder="Your favorite restaurant">
+                        <div class="other-quiz">
+                            <input type="radio" id="radio5" name="radio1" class="md-radiobtn">
+                            <label for="radio5" class="radio-label"><span></span> Other: </label>
+                        </div>
+                        <div class="other-quiz other-quiz-input">
+                            <input type="text" class="input-form" placeholder="Your favorite restaurant">
+                        </div>
                     </div>
 
-                    <div class="input-group">
-                        <button type="submit" class="button button-md button-aqua">Submit</button>
-                        <button class="button button-md button-cancel">Cancel</button>
-                 </div>
+
+                </div>
+                <div class="button-group">
+                    <button type="submit" class="button"> <i class="fa fa-angle-left pull-left" aria-hidden="true"></i> Previous</button>
+                    <button type="submit" class="button">Next <i class="fa fa-angle-right pull-right" aria-hidden="true"></i></button>
+
                 </div>
             </form>
         </div>
