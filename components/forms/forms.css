@@ -27,6 +27,11 @@ body.shipping-billing-form {
     background-size: cover;
 }
 
+body.scheduling-form {
+    background:  url(../img/scheduling-background.jpg) no-repeat;
+    background-size: cover;
+}
+
 .login-form .main {
     background-color: rgba(255,255,255, 0.9);
     border-radius: 4px;
@@ -42,6 +47,12 @@ body.shipping-billing-form {
     background-color: rgba(0,0,0, 0.7);
     border-radius: 4px;
     color: #fff;
+}
+
+.scheduling-form .main {
+    background-color: #eee;
+    border-radius: 10px;
+    color: #000;
 }
 
 .form-wrapper {
@@ -490,6 +501,60 @@ input[type="range"]::-webkit-slider-thumb {
     color: #003b66;
 }
 
+.scheduling-form h3 {
+    border-bottom: 1px solid gray;
+}
+
+.scheduling-form h5 {
+    color: #74c100;
+}
+
+.scheduling-form  label {
+    display: block;
+    min-width: 30%;
+}
+
+.scheduling-form .input-group {
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+}
+
+.scheduling-form .input-group input,  .scheduling-form .input-group select, .scheduling-form .input-group textarea{
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    border-top: none;
+    border-bottom: 1px solid #DDD;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.39), 0 -1px 1px #FFF, 0 1px 0 #FFF;
+    padding-left: 10px;
+}
+
+.scheduling-form .input-group select {
+    height: 40px;
+    width: 100%;
+}
+.scheduling-form .input-group textarea {
+    height: 100px;
+}
+
+.date-time-divider {
+    padding: 0 5px;
+}
+
+.scheduling-form .button {
+    border-radius: 20px;
+}
+
+.scheduling-form .button-group {
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+
+.scheduling-form .button-group .button:nth-child(1) {
+    margin-right: 10px;
+}
 
 
 
