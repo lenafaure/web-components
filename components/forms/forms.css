@@ -17,6 +17,11 @@ body.login-form {
     background-size: cover;
 }
 
+body.shipping-billing-form {
+    background:  url(../img/shipping-billing-background.jpg) no-repeat;
+    background-size: cover;
+}
+
 .login-form .main {
     background-color: rgba(255,255,255, 0.9);
     border-radius: 4px;
@@ -25,6 +30,12 @@ body.login-form {
 .search-form .main {
     background: transparent;
     box-shadow: none;
+    color: #fff;
+}
+
+.shipping-billing-form .main {
+    background-color: rgba(0,0,0, 0.7);
+    border-radius: 4px;
     color: #fff;
 }
 
@@ -98,6 +109,12 @@ select{
 .login-form [type="checkbox"]:checked + label:after
 {
     color: #ADD100;
+}
+
+.shipping-billing-form [type="checkbox"]:not(:checked) + label:after,
+.shipping-billing-form [type="checkbox"]:checked + label:after
+{
+    color: #000;
 }
 
 /* checked mark aspect changes */
@@ -367,7 +384,50 @@ input[type="radio"]:checked + label span {
     background-color: #be0a2a;
 }
 
+.shipping-billing-form .input-form {
+    border: 1px solid #eee;
+    background-color: rgba(255,255,255,0.8);
+    -webkit-transition: background-color ease-in-out .15s;
+    -o-transition: background-color ease-in-out .15s;
+    transition: background-color ease-in-out .15s;
+    padding: 1em 0;
+    padding-left: 5px;
+    color: #000;
+    font-size: 12px;
+}
 
+.shipping-billing-form .input-form:focus {
+    background-color: #fff;
+    transition: background-color ease-in-out .15s;
+}
+
+.shipping-billing-form .help-input, .shipping-billing-form h3 {
+    color: #fff;
+}
+
+
+.shipping-billing-form .input-group {
+    display: flex;
+    align-items: center;
+}
+
+.shipping-billing-form .input-group label{
+    width: 40%;
+}
+
+.shipping-billing-form hr {
+    margin-bottom: 3em;
+}
+
+.shipping-billing-form .button-group {
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+
+.shipping-billing-form .button-group .button:nth-child(1) {
+    margin-right: 10px;
+}
 
 
 
