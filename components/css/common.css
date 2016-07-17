@@ -231,3 +231,6 @@ select[multiple]
     text-transform: uppercase;
 }
 
+.clearfix {
+    clear: both;
+}

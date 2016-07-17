@@ -32,6 +32,11 @@ body.scheduling-form {
     background-size: cover;
 }
 
+body.card-form {
+    background:  url(../img/card-background.jpg) no-repeat;
+    background-size: cover;
+}
+
 .login-form .main {
     background-color: rgba(255,255,255, 0.9);
     border-radius: 4px;
@@ -53,6 +58,12 @@ body.scheduling-form {
     background-color: #eee;
     border-radius: 10px;
     color: #000;
+}
+
+.card-form .main {
+    background: linear-gradient(#FF512F, #DD2476);
+    border-radius: 10px;
+    color: #fff;
 }
 
 .form-wrapper {
@@ -534,6 +545,7 @@ input[type="range"]::-webkit-slider-thumb {
     height: 40px;
     width: 100%;
 }
+
 .scheduling-form .input-group textarea {
     height: 100px;
 }
@@ -556,10 +568,55 @@ input[type="range"]::-webkit-slider-thumb {
     margin-right: 10px;
 }
 
+.card-form .input-group {
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+    margin-top: 15px;
+}
 
+.card-form .number-csv-wrapper {
+    display: flex;
+}
 
+.card-form .card-number-wrapper {
+    width: 65%;
+    margin-right: 5px;
+}
 
+.card-form h3 {
+    color: #fff;
+}
 
+.card-form .input-group input,  .card-form .input-group select, .card-form .input-group textarea{
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    border-top: none;
+    border-bottom: 1px solid #DDD;
+    padding-left: 10px;
+}
 
+.card-form .input-group select  {
+    height: 40px;
+    width: 100%;
+}
 
+.card-form .expiration-wrapper select:nth-child(1){
+    margin-right: 5px;
+}
+
+.card-form .button-group {
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+
+.card-form .button-group .button-card {
+    background-color: #4d148c;
+}
+
+.card-form .button-group .button:nth-child(1) {
+    margin-right: 10px;
+}
 
