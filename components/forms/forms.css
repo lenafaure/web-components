@@ -37,6 +37,7 @@ body.card-form {
     background-size: cover;
 }
 
+
 .login-form .main {
     background-color: rgba(255,255,255, 0.9);
     border-radius: 4px;
@@ -602,7 +603,7 @@ input[type="range"]::-webkit-slider-thumb {
     width: 100%;
 }
 
-.card-form .expiration-wrapper select:nth-child(1){
+.card-form .expiration-wrapper .select-dropdown:nth-child(1){
     margin-right: 5px;
 }
 
@@ -618,5 +619,18 @@ input[type="range"]::-webkit-slider-thumb {
 
 .card-form .button-group .button:nth-child(1) {
     margin-right: 10px;
+}
+
+.card-form .select-dropdown {
+    position:relative;
+    width: 100%;
+}
+
+.card-form .select-dropdown i {
+    position: absolute;
+    right: 10px;
+    color: #000;
+    top: 14px;
+    cursor: pointer;
 }
 
