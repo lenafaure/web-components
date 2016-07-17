@@ -17,6 +17,11 @@ body.login-form {
     background-size: cover;
 }
 
+body.color-building-form {
+    background:  url(../img/color-building-background.jpg);
+    background-size: cover;
+}
+
 body.shipping-billing-form {
     background:  url(../img/shipping-billing-background.jpg) no-repeat;
     background-size: cover;
@@ -183,6 +188,25 @@ input[type="radio"]:checked + label span {
 }
 
 /****** END CHECKBOX AND RADIO BUTTONS STYLING ******/
+
+/****** RANGE SLIDER STYLING ******/
+input[type=range][orient=vertical]
+{
+    writing-mode: bt-lr; /* IE */
+    -webkit-appearance: slider-vertical; /* WebKit */
+    height: 150px;
+    padding: 0 5px;
+
+    border-radius: 8px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    background-color: #666;
+    opacity: 0.5;
+    width: 10px;
+    height: 26px;
+}
+/****** END RANGE SLIDER STYLING ******/
 
 .search-form i {
     float: left;
@@ -429,6 +453,42 @@ input[type="radio"]:checked + label span {
     margin-right: 10px;
 }
 
+.color-building-form .range-sliders-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.color-building-form .red {
+    color: red;
+}
+
+.color-building-form .green {
+    color: green;
+}
+
+.color-building-form .blue {
+    color: blue;
+}
+
+.color-building-form h4{
+    font-weight: 300;
+    border-top: 1px solid #eee;
+}
+
+.color-building-form .alpha-wrapper {
+    padding: 3em 0;
+    border-bottom: 1px solid #eee;
+}
+
+.color-building-form textarea{
+    border: 1px solid #eee;
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+.color-building-form h3 {
+    color: #003b66;
+}
 
 
 

@@ -226,3 +226,8 @@ select[multiple]
     /* Move the label to the top */
     vertical-align:top;
 }
+
+.uppercase {
+    text-transform: uppercase;
+}
+
