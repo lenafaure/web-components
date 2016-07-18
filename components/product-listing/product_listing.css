@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-    width: 900px;
+    width: 960px;
     margin: 0 auto;
     background-color: #fff;
 }
@@ -157,7 +157,6 @@ header {
     display: flex;
     display: -webkit-flex;
     justify-content: space-between;
-    padding: 3em 0;
 }
 
 .cart-row {
@@ -168,7 +167,9 @@ header {
     width: 30%;
     padding: 1em;
     background-color: #eee;
+    border-radius: 3px;
     height: 100%;
+    margin-left: 15px;
 }
 
 .cart-wrap-up h3 {
@@ -182,7 +183,6 @@ header {
 
 .cart-wrap-up .grand-total {
     font-size: 16px;
-    font-weight: 600;
 }
 
 .cart-item {
@@ -215,7 +215,7 @@ header {
     width: 15%;
 }
 
-.size-description {
+.cart-item .size-description {
     padding-top: 1em;
 }
 
@@ -224,6 +224,10 @@ header {
     width: 40px;
     height: 40px;
     text-align: center;
+}
+
+.cart-item .delete-item {
+    padding: 0 2em;
 }
 
 .btn-purchase {
