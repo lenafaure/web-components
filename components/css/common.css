@@ -44,8 +44,16 @@ a  {
     text-align: right;
 }
 
-.strike-through {
-    ;
+.line-through {
+    text-decoration: line-through;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.small {
+    font-size: 12px;
 }
 
 /* ----------------------------------------------------------------------------------------------------
