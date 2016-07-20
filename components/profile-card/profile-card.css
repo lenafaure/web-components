@@ -1,0 +1,98 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(#FF512F, #F09819);
+    font-size: 16px;
+    color: #404651;
+}
+
+.main {
+    width: 350px;
+    margin: 0 auto;
+}
+
+h3 {
+    width: 100%;
+    background-color: rgba(255,255,255, 0.9);
+    padding: 1.5em 0;
+    margin-bottom: 50px;
+}
+
+#profile-card-wrapper {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fff;
+}
+
+.bg-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    rgba(0,0,0,0.4) url("../img/texas.jpg");
+    background-size: cover;
+    padding: 4em 0 2em;
+}
+
+#user-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#user-photo:after {
+    background: rgba(0, 0, 0, .6);
+}
+
+#user-photo img {
+    width: 100%;
+}
+
+.profile-info {
+    padding-top: 2em;
+    color: #fff;
+}
+
+.profile-name {
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.profile-path {
+    padding-top: 0.5em;
+    font-size: 80%;
+}
+
+.profile-resume {
+    padding: 0 2em;
+}
+
+.title-infos {
+    font-weight: 500;
+    padding: 2em 0 0;
+}
+
+.infos-text {
+    color: #8e8e8e;
+    padding: 1em 0 2em;
+    border-bottom: 1px solid #eee;
+}
+
+.infos-text a {
+    display: block;
+    color: #404651;
+}
+
+.infos-text i {
+    padding: 0.2em 0.5em 0 0;
+}
+
+.infos-text a:hover, .infos-text i:hover  {
+    color: #fe6f13;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-start;
+}

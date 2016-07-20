@@ -155,6 +155,9 @@ header {
     width: 100%;
     height:200px;
     max-height:100%;
+}
+
+.product-item img, .cart-item img, .keep-shopping img {
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
