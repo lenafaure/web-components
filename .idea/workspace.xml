@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2369f72a-d03c-4f8d-ae16-c6f8ea0a4b95" name="Default" comment="">
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
 =======
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/forms/login-form.html" />
@@ -10,12 +12,18 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/forms/search-form.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/forms/signup-form.html" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/components/forms/index.html" afterPath="" />
+>>>>>>> 43d2dee6327972629560418572f2ae71f8d3202e
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/buttons/buttons.css" afterPath="$PROJECT_DIR$/components/buttons/buttons.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/buttons/index.html" afterPath="$PROJECT_DIR$/components/buttons/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/css/common.css" afterPath="$PROJECT_DIR$/components/css/common.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/forms/forms.css" afterPath="$PROJECT_DIR$/components/forms/forms.css" />
+<<<<<<< HEAD
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/forms/login-form.html" afterPath="$PROJECT_DIR$/components/forms/login-form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/forms/questionnaire.html" afterPath="$PROJECT_DIR$/components/forms/questionnaire.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/forms/search-form.html" afterPath="$PROJECT_DIR$/components/forms/search-form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/forms/signup-form.html" afterPath="$PROJECT_DIR$/components/forms/signup-form.html" />
+=======
 >>>>>>> 53ebfb0df1bccee142776624181c08684eedae25
+>>>>>>> 43d2dee6327972629560418572f2ae71f8d3202e
     </list>
     <ignored path="web-components.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/components/css/common.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="197" column="13" selection-start-line="197" selection-start-column="13" selection-end-line="197" selection-end-column="13" />
+              <caret line="248" column="0" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -60,12 +68,17 @@
         <entry file="file://$PROJECT_DIR$/components/forms/forms.css">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+            <state relative-caret-position="226">
+              <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+=======
+<<<<<<< HEAD
             <state relative-caret-position="34">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
 =======
             <state relative-caret-position="511">
               <caret line="125" column="1" selection-start-line="125" selection-start-column="1" selection-end-line="125" selection-end-column="1" />
 >>>>>>> 53ebfb0df1bccee142776624181c08684eedae25
+>>>>>>> 43d2dee6327972629560418572f2ae71f8d3202e
               <folding />
             </state>
           </provider>
@@ -74,8 +87,8 @@
       <file leaf-file-name="questionnaire.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/forms/questionnaire.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="56" column="0" selection-start-line="51" selection-start-column="20" selection-end-line="56" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="38" column="107" selection-start-line="38" selection-start-column="107" selection-end-line="38" selection-end-column="107" />
               <folding />
             </state>
           </provider>
@@ -84,8 +97,8 @@
       <file leaf-file-name="login-form.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/forms/login-form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -94,8 +107,8 @@
       <file leaf-file-name="signup-form.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/forms/signup-form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
+            <state relative-caret-position="135">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="25" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -105,12 +118,17 @@
         <entry file="file://$PROJECT_DIR$/components/forms/search-form.html">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+            <state relative-caret-position="255">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="25" selection-end-column="10" />
+=======
+<<<<<<< HEAD
             <state relative-caret-position="782">
               <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
 =======
             <state relative-caret-position="300">
               <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
 >>>>>>> 53ebfb0df1bccee142776624181c08684eedae25
+>>>>>>> 43d2dee6327972629560418572f2ae71f8d3202e
               <folding />
             </state>
           </provider>
@@ -159,12 +177,12 @@
         <option value="$PROJECT_DIR$/components/buttons/css/buttons.css" />
         <option value="$PROJECT_DIR$/components/forms/index.html" />
         <option value="$PROJECT_DIR$/components/buttons/index.html" />
-        <option value="$PROJECT_DIR$/components/css/common.css" />
         <option value="$PROJECT_DIR$/components/buttons/buttons.css" />
-        <option value="$PROJECT_DIR$/components/forms/search-form.html" />
         <option value="$PROJECT_DIR$/components/forms/signup-form.html" />
-        <option value="$PROJECT_DIR$/components/forms/questionnaire.html" />
+        <option value="$PROJECT_DIR$/components/forms/search-form.html" />
         <option value="$PROJECT_DIR$/components/forms/login-form.html" />
+        <option value="$PROJECT_DIR$/components/forms/questionnaire.html" />
+        <option value="$PROJECT_DIR$/components/css/common.css" />
         <option value="$PROJECT_DIR$/components/forms/forms.css" />
       </list>
     </option>
@@ -177,6 +195,10 @@
   </component>
   <component name="ProjectFrameBounds">
 <<<<<<< HEAD
+    <option name="x" value="297" />
+    <option name="y" value="147" />
+=======
+<<<<<<< HEAD
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -184,6 +206,7 @@
 =======
     <option name="x" value="504" />
     <option name="y" value="121" />
+>>>>>>> 43d2dee6327972629560418572f2ae71f8d3202e
     <option name="width" value="1062" />
     <option name="height" value="728" />
 >>>>>>> 53ebfb0df1bccee142776624181c08684eedae25
@@ -383,12 +406,19 @@
       <workItem from="1468224072941" duration="46000" />
 =======
       <workItem from="1468066243335" duration="21000" />
+<<<<<<< HEAD
+      <workItem from="1468066304873" duration="14897000" />
+=======
       <workItem from="1468066304873" duration="11861000" />
 >>>>>>> 53ebfb0df1bccee142776624181c08684eedae25
+>>>>>>> 43d2dee6327972629560418572f2ae71f8d3202e
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="22005000" />
+=======
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="7811000" />
   </component>
@@ -399,9 +429,10 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23214285" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
 =======
     <option name="totallyTimeSpent" value="18969000" />
+>>>>>>> 43d2dee6327972629560418572f2ae71f8d3202e
   </component>
   <component name="ToolWindowManager">
-    <frame x="504" y="121" width="1062" height="728" extended-state="0" />
+    <frame x="297" y="147" width="1062" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32768363" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -620,41 +651,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/forms/search-form.html">
+    <entry file="file://$PROJECT_DIR$/components/forms/signup-form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="25" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/forms/questionnaire.html">
+    <entry file="file://$PROJECT_DIR$/components/forms/search-form.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="255">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="25" selection-end-column="10" />
+=======
         <state relative-caret-position="120">
           <caret line="56" column="0" selection-start-line="51" selection-start-column="20" selection-end-line="56" selection-end-column="0" />
 >>>>>>> 53ebfb0df1bccee142776624181c08684eedae25
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/css/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="197" column="13" selection-start-line="197" selection-start-column="13" selection-end-line="197" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/forms/signup-form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
+>>>>>>> 43d2dee6327972629560418572f2ae71f8d3202e
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/forms/login-form.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/forms/questionnaire.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="38" column="107" selection-start-line="38" selection-start-column="107" selection-end-line="38" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="285">
+          <caret line="248" column="0" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
+=======
 <<<<<<< HEAD
         <state relative-caret-position="782">
           <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
@@ -662,6 +702,7 @@
         <state relative-caret-position="660">
           <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
 >>>>>>> 53ebfb0df1bccee142776624181c08684eedae25
+>>>>>>> 43d2dee6327972629560418572f2ae71f8d3202e
           <folding />
         </state>
       </provider>
@@ -669,12 +710,17 @@
     <entry file="file://$PROJECT_DIR$/components/forms/forms.css">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+        <state relative-caret-position="226">
+          <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+=======
+<<<<<<< HEAD
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
 =======
         <state relative-caret-position="511">
           <caret line="125" column="1" selection-start-line="125" selection-start-column="1" selection-end-line="125" selection-end-column="1" />
 >>>>>>> 53ebfb0df1bccee142776624181c08684eedae25
+>>>>>>> 43d2dee6327972629560418572f2ae71f8d3202e
           <folding />
         </state>
       </provider>

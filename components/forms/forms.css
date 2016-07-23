@@ -3,37 +3,37 @@ body.signup-form {
 }
 
 body.search-form {
-    background:  url(../img/search-background.jpg) no-repeat;
+    background:  url(../img/search-background.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
 body.questionnaire-form {
-    background:  url(../img/quiz-background.jpg) no-repeat;
+    background:  url(../img/quiz-background.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
 body.login-form {
-    background:  url(../img/login_background.jpg) no-repeat;
+    background:  url(../img/login_background.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
 body.color-building-form {
-    background:  url(../img/color-building-background.jpg);
+    background:  url(../img/color-building-background.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
 body.shipping-billing-form {
-    background:  url(../img/shipping-billing-background.jpg) no-repeat;
+    background:  url(../img/shipping-billing-background.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
 body.scheduling-form {
-    background:  url(../img/scheduling-background.jpg) no-repeat;
+    background:  url(../img/scheduling-background.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
 body.card-form {
-    background:  url(../img/card-background.jpg) no-repeat;
+    background:  url(../img/card-background.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 

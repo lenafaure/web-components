@@ -1,6 +1,4 @@
-
-/* import Roboto from Google Fonts */
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500);
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -47,6 +45,33 @@ a{
     text-decoration: line-through;
 }
 
+.prev-next {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 2px;
+    width: 600px;
+    margin: 0 auto;
+    padding: 1em 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.prev-next a {
+    color: inherit;
+    margin: 0 auto;
+    font-weight: 300;
+}
+
+.prev-next a:hover {
+    color: #36c6d3;
+}
+
+.prev-next .fa {
+    margin: 0 5px;
+}
+
+
 .italic {
     font-style: italic;
 }
@@ -54,6 +79,7 @@ a{
 .small {
     font-size: 12px;
 }
+
 
 /* ----------------------------------------------------------------------------------------------------
 
