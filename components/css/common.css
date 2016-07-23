@@ -36,7 +36,7 @@ body {
 .main {
     width: 600px;
     background-color: #fff;
-    margin: 50px auto;
+    margin: 30px auto;
     border-radius: 2px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -54,6 +54,33 @@ h3.main-title {
     text-transform: uppercase;
     color: #72757e;
 }
+
+.prev-next {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 2px;
+    width: 600px;
+    margin: 0 auto;
+    padding: 1em 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.prev-next a {
+    color: inherit;
+    margin: 0 auto;
+    font-weight: 300;
+}
+
+.prev-next a:hover {
+    color: #36c6d3;
+}
+
+.prev-next .fa {
+    margin: 0 5px;
+}
+
 
 
 /* ----------------------------------------------------------------------------------------------------
