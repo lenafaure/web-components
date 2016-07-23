@@ -1,6 +1,4 @@
-
-/* import Roboto from Google Fonts */
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500);
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -23,36 +21,28 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
-
-html {
-    height: 100%;
-}
-
 body {
     font-family: 'Roboto', 'Helevetica', sans-serif;
 }
 
-
-.main {
-    width: 600px;
-    background-color: #fff;
-    margin: 30px auto;
-    border-radius: 2px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-
-a  {
+a{
     text-decoration: none;
 }
 
-h3.main-title {
+.align-center {
     text-align: center;
-    margin: 1em 0 3em;
-    padding-bottom: 1em;
-    border-bottom: 1px solid #eee;
-    text-transform: uppercase;
-    color: #72757e;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.line-through {
+    text-decoration: line-through;
 }
 
 .prev-next {
@@ -81,6 +71,14 @@ h3.main-title {
     margin: 0 5px;
 }
 
+
+.italic {
+    font-style: italic;
+}
+
+.small {
+    font-size: 12px;
+}
 
 
 /* ----------------------------------------------------------------------------------------------------
@@ -245,4 +243,12 @@ select[multiple]
 {
     /* Move the label to the top */
     vertical-align:top;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.clearfix {
+    clear: both;
 }
